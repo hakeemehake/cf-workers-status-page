@@ -24,13 +24,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.kopetro.com.m y
+  - id: www-kopetro-com-my
+    name: www.kopetro.com.my
     description: 'Built for anything connected to the Internet.'
     url: 'https://kopetro.com.my'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    
 
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
