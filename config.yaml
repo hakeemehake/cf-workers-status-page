@@ -38,3 +38,8 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+ - id: blog-cloudflare-com
+    name: PROXY
+    url: 'https://ops.kopetro.com.my'
+    method: HEAD
+    expectStatus: 200
